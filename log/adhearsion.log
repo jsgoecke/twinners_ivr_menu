@@ -1,0 +1,1694 @@
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>1000, :type=>"SIP", :query=>{}, :context=>"test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9998", :callingtns=>0, :extension=>1000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9998, :callingani2=>0, :channel=>"SIP/9998-081caa58", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310505.1", :request=>#<URI::Generic:0xfdb104e00 URL:agi://localhost>, :enhanced=>0.0}
+ERROR agi: #<ArgumentError: (eval):2:in `test': wrong number of arguments>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:160:in `build'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:151:in `load'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:122:in `load'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:120:in `load'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:127:in `load_dial_plan'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:11:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:78:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:78:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>1000, :type=>"SIP", :query=>{}, :context=>"test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9998", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9998, :callingani2=>0, :channel=>"SIP/9998-081caa58", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310505.1", :request=>#<URI::Generic:0xfdb0fe910 URL:agi://localhost>, :enhanced=>0.0}
+ERROR agi: #<ArgumentError: (eval):2:in `test': wrong number of arguments>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:160:in `build'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:151:in `load'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:122:in `load'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:120:in `load'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:127:in `load_dial_plan'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:11:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:78:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:78:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081caa58", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310588.2", :request=>#<URI::Generic:0xfdb0fbc1a URL:agi://localhost>, :enhanced=>0.0}
+ERROR agi: #<ArgumentError: (eval):2:in `test': wrong number of arguments>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:160:in `build'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:151:in `load'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:122:in `load'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:120:in `load'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:127:in `load_dial_plan'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:11:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:78:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:78:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081caa58", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310588.2", :request=>#<URI::Generic:0xfdb0f8fc4 URL:agi://localhost>, :enhanced=>0.0}
+ERROR agi: #<ArgumentError: (eval):2:in `test': wrong number of arguments>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:160:in `build'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:151:in `load'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:122:in `load'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:120:in `load'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:127:in `load_dial_plan'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:11:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:78:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:78:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081caa58", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310652.3", :request=>#<URI::Generic:0xfdb0f631e URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: No dialplan entry point for call context 'test' -- Ignoring call!
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081caa58", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310652.3", :request=>#<URI::Generic:0xfdb0f3ace URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310733.4", :request=>#<URI::Generic:0xfdb0f07de URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310733.4", :request=>#<URI::Generic:0xfdb0ed0f2 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310761.5", :request=>#<URI::Generic:0xfdb0e9e0c URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310761.5", :request=>#<URI::Generic:0xfdb0e1496 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310848.6", :request=>#<URI::Generic:0xfdb0de160 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NoMethodError: undefined method `log' for #<Adhearsion::DialPlan::ExecutionEnvironment:0xb61ba2cc>>
+ERROR agi:      (eval):4:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310848.6", :request=>#<URI::Generic:0xfdb0d4e8a URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310871.7", :request=>#<URI::Generic:0xfdb0d1b5e URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NoMethodError: undefined method `log' for #<Adhearsion::DialPlan::ExecutionEnvironment:0xb61a15ec>>
+ERROR agi:      (eval):4:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310871.7", :request=>#<URI::Generic:0xfdb0c8824 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310902.8", :request=>#<URI::Generic:0xfdb0c543a URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NoMethodError: undefined method `log' for #<Adhearsion::DialPlan::ExecutionEnvironment:0xb61887a4>>
+ERROR agi:      (eval):4:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310902.8", :request=>#<URI::Generic:0xfdb0bc100 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310937.9", :request=>#<URI::Generic:0xfdb0b8d16 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310937.9", :request=>#<URI::Generic:0xfdb0b003a URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310983.10", :request=>#<URI::Generic:0xfdb0acc82 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213310983.10", :request=>#<URI::Generic:0xfdb0a3f60 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311003.11", :request=>#<URI::Generic:0xfdb0a0b6c URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311003.11", :request=>#<URI::Generic:0xfdb096702 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311020.12", :request=>#<URI::Generic:0xfdb09330e URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311020.12", :request=>#<URI::Generic:0xfdb0863e8 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311078.13", :request=>#<URI::Generic:0xfdb082e96 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311078.13", :request=>#<URI::Generic:0xfdb0806d2 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7000, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d4440", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311106.14", :request=>#<URI::Generic:0xfdb07debe URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7000, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d4440", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311106.14", :request=>#<URI::Generic:0xfdb07b6fa URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>8, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>8, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311112.15", :request=>#<URI::Generic:0xfdb078ee6 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>8, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311112.15", :request=>#<URI::Generic:0xfdb076722 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>5, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>5, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d83b8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311131.16", :request=>#<URI::Generic:0xfdb073f0e URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>5, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d83b8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311131.16", :request=>#<URI::Generic:0xfdb07179a URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311148.17", :request=>#<URI::Generic:0xfdb06efd6 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311148.17", :request=>#<URI::Generic:0xfdb06c81c URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>8, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>8, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d4440", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311169.18", :request=>#<URI::Generic:0xfdb06a012 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>8, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d4440", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311169.18", :request=>#<URI::Generic:0xfdb05f6d0 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>8, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>8, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311184.19", :request=>#<URI::Generic:0xfdb05c21e URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>8, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311184.19", :request=>#<URI::Generic:0xfdb04d62e URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>8, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>8, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311353.20", :request=>#<URI::Generic:0xfdb04a17c URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>8, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213311353.20", :request=>#<URI::Generic:0xfdb03d918 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213313203.21", :request=>#<URI::Generic:0xfdb03a470 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: playback_order: SELECT * FROM stations   WHERE (name = 'twinners_test')  ORDER BY playback_order LIMIT 1>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:150:in `log'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:345:in `catch_schema_changes'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:256:in `select'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:55:in `select_all'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:532:in `find_by_sql'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1233:in `find_every'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1227:in `find_initial'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:502:in `find'
+     /home/jsgoecke/NetBeanProjects/twinners_ivr_menu/gui/vendor/plugins/hobo/lib/hobo/model.rb:215:in `find'
+     (eval):3:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213313203.21", :request=>#<URI::Generic:0xfdb031352 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 16:57:46 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:05:19 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213315530.22", :request=>#<URI::Generic:0xfdb0b10ac URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NoMethodError: undefined method `timeout' for #<Station:0xb614d67c>>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/attribute_methods.rb:205:in `method_missing'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213315530.22", :request=>#<URI::Generic:0xfdb092fee URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:05:49 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:07:30 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213315658.23", :request=>#<URI::Generic:0xfdb0bf5a8 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NoMethodError: undefined method `tries' for #<Menu:0xb615ff70>>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/attribute_methods.rb:205:in `method_missing'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213315658.23", :request=>#<URI::Generic:0xfdb0a2d90 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:09:39 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213315786.24", :request=>#<URI::Generic:0xfdb0cf872 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye.gsm
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=-1
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye.gsm
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213315786.24", :request=>#<URI::Generic:0xfdb0b3096 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: <<< 
+ERROR agi: #<ArgumentError: Can't coerce nil into AGI response! This could be a bug!>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:671:in `result_digit_from'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:604:in `interruptable_play'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:603:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:603:in `interruptable_play'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:715:in `play_files_in_menu'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:225:in `menu'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213315789.25", :request=>#<URI::Generic:0xfdb0a82e0 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye.gsm
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye.gsm
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye.gsm
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213315789.25", :request=>#<URI::Generic:0xfdb09c0c6 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:10:07 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316136.26", :request=>#<URI::Generic:0xfdb0b55a8 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye.gsm
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316136.26", :request=>#<URI::Generic:0xfdb0988ea URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:16:11 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316179.27", :request=>#<URI::Generic:0xfdb0e68ba URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=53
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=53
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316179.27", :request=>#<URI::Generic:0xfdb0c8f40 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316244.28", :request=>#<URI::Generic:0xfdb0bf1e8 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316244.28", :request=>#<URI::Generic:0xfdb0b4e14 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316264.29", :request=>#<URI::Generic:0xfdb0aaff4 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback goodbye
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316264.29", :request=>#<URI::Generic:0xfdb0a0c48 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316276.30", :request=>#<URI::Generic:0xfdb096eaa URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback goodbye
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316276.30", :request=>#<URI::Generic:0xfdb08cafe URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316954.31", :request=>#<URI::Generic:0xfdb082d60 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316954.31", :request=>#<URI::Generic:0xfdb08063c URL:agi://localhost>, :enhanced=>0.0}
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:29:36 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d4440", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316984.32", :request=>#<URI::Generic:0xfdb0ad0ba URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d4440", :accountcode=>"", :uniqueid=>"asterisk-9996-1213316984.32", :request=>#<URI::Generic:0xfdb0a7156 URL:agi://localhost>, :enhanced=>0.0}
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:30:05 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213317011.33", :request=>#<URI::Generic:0xfdb0b55a8 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=53
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=54
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=55
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213317011.33", :request=>#<URI::Generic:0xfdb097a12 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:30:21 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213318505.34", :request=>#<URI::Generic:0xfdb0d0326 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<TypeError: can't convert Fixnum into String>
+ERROR agi:      (eval):5:in `+'
+     (eval):5:in `build'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `each'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `send'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `method_missing'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_collection.rb:162:in `method_missing_without_paginate'
+     /usr/lib/ruby/gems/1.8/gems/will_paginate-2.2.2/lib/will_paginate/finder.rb:164:in `method_missing'
+     /home/jsgoecke/NetBeanProjects/twinners_ivr_menu/gui/vendor/plugins/hobo/lib/hobo/scopes/defined_scope_proxy_extender.rb:20:in `method_missing'
+     (eval):4:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/menu_command/menu_class.rb:24:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:204:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:204:in `menu'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213318505.34", :request=>#<URI::Generic:0xfdb0b3974 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 17:55:22 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213318527.35", :request=>#<URI::Generic:0xfdb09d0ac URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=53
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=54
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213318527.35", :request=>#<URI::Generic:0xfdb07f67e URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:02:07 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213318932.36", :request=>#<URI::Generic:0xfdb0975a8 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213318932.36", :request=>#<URI::Generic:0xfdb07a4da URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:04:26 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319071.37", :request=>#<URI::Generic:0xfdb0bcda8 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=53
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC playback tt-monkeys
+DEBUG agi: <<< 200 result=-1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319071.37", :request=>#<URI::Generic:0xfdb09f38e URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:07:36 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319263.38", :request=>#<URI::Generic:0xfdb0a70ac URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319263.38", :request=>#<URI::Generic:0xfdb090834 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:10:52 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319457.39", :request=>#<URI::Generic:0xfdb0ffb26 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319457.39", :request=>#<URI::Generic:0xfdb0e93bc URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:13:10 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319595.40", :request=>#<URI::Generic:0xfdb0f30ba URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NameError: undefined local variable or method `station' for #<Adhearsion::DialPlan::ExecutionEnvironment:0xb61c0de8>>
+ERROR agi:      (eval):26:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319595.40", :request=>#<URI::Generic:0xfdb0dc806 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319629.41", :request=>#<URI::Generic:0xfdb0d281a URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NameError: undefined local variable or method `station' for #<Adhearsion::DialPlan::ExecutionEnvironment:0xb6195940>>
+ERROR agi:      (eval):26:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319629.41", :request=>#<URI::Generic:0xfdb0c6dda URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:13:51 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319636.42", :request=>#<URI::Generic:0xfdb0bc326 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NameError: undefined local variable or method `station' for #<Adhearsion::DialPlan::ExecutionEnvironment:0xb615339c>>
+ERROR agi:      (eval):26:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319636.42", :request=>#<URI::Generic:0xfdb0a5ae0 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319665.43", :request=>#<URI::Generic:0xfdb09bb62 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319665.43", :request=>#<URI::Generic:0xfdb08ff1a URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319761.44", :request=>#<URI::Generic:0xfdb085f9c URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<ArgumentError: comparison of Fixnum with String failed>
+ERROR agi:      (eval):33:in `<='
+     (eval):33:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319761.44", :request=>#<URI::Generic:0xfdb0799c2 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319790.45", :request=>#<URI::Generic:0xfdb06f92c URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NoMethodError: undefined method `+@' for "avatar_type":String>
+ERROR agi:      (eval):34:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319790.45", :request=>#<URI::Generic:0xfdb063366 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319819.46", :request=>#<URI::Generic:0xfdb0592da URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319819.46", :request=>#<URI::Generic:0xfdb0566e8 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d4440", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319822.47", :request=>#<URI::Generic:0xfdb053ab0 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d4440", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319822.47", :request=>#<URI::Generic:0xfdb050ec8 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d83b8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319839.48", :request=>#<URI::Generic:0xfdb04e290 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NoMethodError: undefined method `+@' for "avatar_type":String>
+ERROR agi:      (eval):34:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d83b8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319839.48", :request=>#<URI::Generic:0xfdb041cac URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:19:03 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319948.49", :request=>#<URI::Generic:0xfdb0a98ac URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<NoMethodError: undefined method `+@' for :avatar_type:Symbol>
+ERROR agi:      (eval):34:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319948.49", :request=>#<URI::Generic:0xfdb0924f4 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319984.50", :request=>#<URI::Generic:0xfdb08845e URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<TypeError: #<Adhearsion::DialPlan::DialplanContextProc:0xb610deb4@(eval):40> is not a symbol>
+ERROR agi:      (eval):6:in `send'
+     (eval):6:in `build'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `each'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `send'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `method_missing'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_collection.rb:162:in `method_missing_without_paginate'
+     /usr/lib/ruby/gems/1.8/gems/will_paginate-2.2.2/lib/will_paginate/finder.rb:164:in `method_missing'
+     /home/jsgoecke/NetBeanProjects/twinners_ivr_menu/gui/vendor/plugins/hobo/lib/hobo/scopes/defined_scope_proxy_extender.rb:20:in `method_missing'
+     (eval):4:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/menu_command/menu_class.rb:24:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:204:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:204:in `menu'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213319984.50", :request=>#<URI::Generic:0xfdb0749b8 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320070.51", :request=>#<URI::Generic:0xfdb06a97c URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback wyoming
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320070.51", :request=>#<URI::Generic:0xfdb05e9ce URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320101.52", :request=>#<URI::Generic:0xfdb054992 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<TypeError: #<Adhearsion::DialPlan::DialplanContextProc:0xb60a691c@(eval):40> is not a symbol>
+ERROR agi:      (eval):6:in `send'
+     (eval):6:in `build'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `each'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `send'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `method_missing'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_collection.rb:162:in `method_missing_without_paginate'
+     /usr/lib/ruby/gems/1.8/gems/will_paginate-2.2.2/lib/will_paginate/finder.rb:164:in `method_missing'
+     /home/jsgoecke/NetBeanProjects/twinners_ivr_menu/gui/vendor/plugins/hobo/lib/hobo/scopes/defined_scope_proxy_extender.rb:20:in `method_missing'
+     (eval):4:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/menu_command/menu_class.rb:24:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:204:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:204:in `menu'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320101.52", :request=>#<URI::Generic:0xfdb04740e URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320123.53", :request=>#<URI::Generic:0xfdb03d3d2 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<TypeError: #<Adhearsion::DialPlan::DialplanContextProc:0xb6077d9c@(eval):40> is not a symbol>
+ERROR agi:      (eval):6:in `send'
+     (eval):6:in `build'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `each'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `send'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_proxy.rb:125:in `method_missing'
+     /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations/association_collection.rb:162:in `method_missing_without_paginate'
+     /usr/lib/ruby/gems/1.8/gems/will_paginate-2.2.2/lib/will_paginate/finder.rb:164:in `method_missing'
+     /home/jsgoecke/NetBeanProjects/twinners_ivr_menu/gui/vendor/plugins/hobo/lib/hobo/scopes/defined_scope_proxy_extender.rb:20:in `method_missing'
+     (eval):4:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/menu_command/menu_class.rb:24:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:204:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:204:in `menu'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320123.53", :request=>#<URI::Generic:0xfdb02fe4e URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320197.54", :request=>#<URI::Generic:0xfdb025e12 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback wyoming
+DEBUG agi: <<< 200 result=0
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320197.54", :request=>#<URI::Generic:0xfdb017e98 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:28:09 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320520.55", :request=>#<URI::Generic:0xfdb0ffb26 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC playback zip-code
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=-1
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320520.55", :request=>#<URI::Generic:0xfdb0db294 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: <<< 
+ERROR agi: #<ArgumentError: Can't coerce nil into AGI response! This could be a bug!>
+ERROR agi:      /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:671:in `result_digit_from'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:604:in `interruptable_play'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:603:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:603:in `interruptable_play'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:715:in `play_files_in_menu'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/commands.rb:225:in `menu'
+     (eval):2:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320568.56", :request=>#<URI::Generic:0xfdb0ceb02 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=51
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC playback goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> HANGUP
+DEBUG agi: <<< 200 result=1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320568.56", :request=>#<URI::Generic:0xfdb0b9a2c URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:29:41 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320684.57", :request=>#<URI::Generic:0xfdb0f08ba URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC playback goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> HANGUP
+DEBUG agi: <<< 200 result=1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320684.57", :request=>#<URI::Generic:0xfdb0ca8ae URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:32:59 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320784.58", :request=>#<URI::Generic:0xfdb0eb072 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320784.58", :request=>#<URI::Generic:0xfdb0d5baa URL:agi://localhost>, :enhanced=>0.0}
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:34:26 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320870.59", :request=>#<URI::Generic:0xfdb0d90ac URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=51
+
+DEBUG agi: >>> EXEC playback invalid
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=52
+
+DEBUG agi: >>> EXEC playback invalid
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC playback goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> HANGUP
+DEBUG agi: <<< 200 result=1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213320870.59", :request=>#<URI::Generic:0xfdb0b1048 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:34:53 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213321338.60", :request=>#<URI::Generic:0xfdb0a5068 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+ERROR agi: #<TypeError: can't convert Menu into String>
+ERROR agi:      (eval):42:in `eval'
+     (eval):42:in `build'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `instance_eval'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:37:in `run'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:97:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/dial_plan.rb:72:in `handle'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:23:in `serve'
+     /usr/lib/ruby/1.8/gserver.rb:211:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:208:in `start'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `initialize'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `new'
+     /usr/lib/ruby/1.8/gserver.rb:198:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/voip/asterisk/agi_server.rb:63:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer/asterisk.rb:45:in `join_server_thread_after_initialized'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `call'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `__send__'
+     /usr/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/symbol.rb:11:in `to_proc'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `each'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/hooks.rb:20:in `trigger_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:190:in `trigger_after_initialized_hooks'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/initializer.rb:102:in `initialize'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `new'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:70:in `start'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `send'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/lib/adhearsion/cli.rb:18:in `execute!'
+     /usr/lib/ruby/gems/1.8/gems/adhearsion-0.7.999/bin/ahn:28
+     /usr/bin/ahn:19:in `load'
+     /usr/bin/ahn:19
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213321338.60", :request=>#<URI::Generic:0xfdb08aa38 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:42:40 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213321364.61", :request=>#<URI::Generic:0xfdb0c88ba URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC BACKGROUND texas
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND california
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=51
+
+DEBUG agi: >>> EXEC playback invalid
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND california
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC BACKGROUND iowa
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC playback goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> HANGUP
+DEBUG agi: <<< 200 result=1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213321364.61", :request=>#<URI::Generic:0xfdb09dec6 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213321485.62", :request=>#<URI::Generic:0xfdb091b76 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC BACKGROUND texas
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND california
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=51
+
+DEBUG agi: >>> EXEC playback invalid
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND california
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND iowa
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC playback goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> HANGUP
+DEBUG agi: <<< 200 result=1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213321485.62", :request=>#<URI::Generic:0xfdb07846e URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:46:06 -0700 2008.
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>7, :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213321571.63", :request=>#<URI::Generic:0xfdb098872 URL:agi://localhost>, :enhanced=>0.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND wyoming
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC BACKGROUND texas
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND california
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=51
+
+DEBUG agi: >>> EXEC playback invalid
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND california
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=50
+
+DEBUG agi: >>> EXEC BACKGROUND iowa
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=52
+
+DEBUG agi: >>> EXEC playback invalid
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> EXEC BACKGROUND iowa
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> WAIT FOR DIGIT 5000
+DEBUG agi: <<< 200 result=49
+
+DEBUG agi: >>> EXEC playback goodbye
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> HANGUP
+DEBUG agi: <<< 200 result=1
+
+ INFO agi: Handling call with variables {:dnid=>7, :type=>"SIP", :query=>{}, :context=>"twinners_test", :priority=>1, :callingpres=>0, :language=>"en", :calleridname=>"Test 9999", :callingtns=>0, :extension=>"h", :type_of_calling_number=>:unknown, :rdnis=>nil, :network=>true, :callerid=>9999, :callingani2=>0, :channel=>"SIP/9999-081d04c8", :accountcode=>"", :uniqueid=>"asterisk-9996-1213321571.63", :request=>#<URI::Generic:0xfdb06cb50 URL:agi://localhost>, :enhanced=>0.0}
+ INFO agi: Received "h" meta-call. Executing OnHungupCall hooks.
+ INFO ahn: Shutting down gracefully at Thu Jun 12 18:59:20 -0700 2008.
